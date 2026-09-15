@@ -58,14 +58,34 @@ This project segments e-commerce customers based on their purchasing behaviour u
 - Seaborn
 - Jupyter Notebook
 
----
+--- 
+
+### 3. Wine Quality Prediction
+
+- **Notebook:** `Wine_Quality_Prediction.ipynb`
+- **Objective:** Predict wine quality categories using physicochemical properties.
+- **Models Used:**
+  - Random Forest Classifier
+  - Support Vector Classifier (SVC)
+  - Stochastic Gradient Descent (SGD)
+- **Best Model:** Random Forest
+- **Best Accuracy:** 74.38%
+- **Key Analysis:**
+  - Exploratory Data Analysis
+  - Class imbalance analysis
+  - Feature engineering
+  - Stratified train-test split
+  - Model evaluation
+  - Confusion matrices
+  - Random Forest feature importance
+
 
 ## 📁 Repository Structure
 
-```text
 OIBSIP/
 │
 ├── EDA_Retail_Sales.ipynb
 ├── Customer_Segmentation_Analysis.ipynb
+├── Wine_Quality_Prediction.ipynb
 ├── oibsip_retail_sales_dataset.csv
 └── README.md
